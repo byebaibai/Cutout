@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.pkl
+.idea/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb
+*.avi
+*.mp4
