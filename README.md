@@ -6,10 +6,10 @@ Cutout is a real-time human segmentation Model written in Python using Pytorch, 
 This software is capable of recognizing
 people in real-time with different gestures in a video.
 
-This model uses techniques from MobileNetV2 and UNet, and Dice loss, Focal loss and SSIM loss are used during training
+This model uses techniques from MobileNetV2 and UNet, and Dice loss, CrossEntropy loss and SSIM loss are used during training
 in order to get plausible results.
 
-The pre-trained model size is only 9.72MB, which means that the model can be easily applied in mobile softwares.
+The pre-trained model size is only 9.72MB, which means that the model can be easily applied in mobile software.
 
 ## Prerequisites
 * Python 3.6
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 ## Getting Started
-### 0.Donload dataset
+### 0.Download dataset
 I use 45986 images from ATR and CIHP dataset to train this model, and 5000 images from CIHP are used for validation.
 
 you can download the dataset from [Look into Person (LIP) ](http://www.sysu-hcp.net/lip/overview.php)
